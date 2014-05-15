@@ -60,7 +60,7 @@ false_positives = 0
 false_positive_list = []
 while t < 1000000:
     print "Progress: %r"% t
-    test_string_length
+    test_string_length = 5
     test_string = ""
     for l in range(test_string_length):
         test_string += choice(sample_space)
